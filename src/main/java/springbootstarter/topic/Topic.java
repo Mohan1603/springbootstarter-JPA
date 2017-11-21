@@ -19,6 +19,8 @@ public class Topic {
 		this.id = id;
 		this.name = name;
 		this.version = version;
+		
+		System.out.println("welcome");
 	}
 	public String getId() {
 		return id;
